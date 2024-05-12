@@ -1,0 +1,46 @@
+QTabWidget::pane {
+    background: transparent;
+    border: none;
+}
+
+/* QToolBar */
+QToolBar {
+    background-color: white;
+}
+
+/* NavigationBar */
+NavigationBarButton {
+    padding: 3px 6px;
+    border: 2px solid transparent;
+    border-right: 1px solid #ffC8C6C4;
+    color: white;
+}
+
+NavigationBarButton:hover {
+    background-color: #ffCDE6F7;
+}
+
+NavigationBarButton:on {
+    border-left-color: #ff106EBE;
+}
+
+NavigationBar {
+    border-right: 1px solid #ffC8C6C4;
+    background-color: white;
+}
+
+/* StatusBar */
+StatusBarButton {
+    padding: 1px;
+    border-top: 1px solid #ffC8C6C4;
+    color: #ff484644;
+}
+
+StatusBarButton:hover {
+    background-color: #ffE1DFDD;
+}
+
+StatusBar {
+    border-top: 1px solid #ffC8C6C4;
+    background-color: #ffF3F2F1;
+}
