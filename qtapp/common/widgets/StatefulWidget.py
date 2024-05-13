@@ -56,7 +56,7 @@ class StatefulWidget(QWidget, Generic[T]):
         """Initializes the StatefulWidget.
 
         Args:
-            init_state (T): The initial state of the widget.
+            initState (T): The initial state of the widget.
             parent (QWidget, optional): The parent widget. Defaults to None.
             flags (Qt.WindowType, optional): The window flags for the widget.
                 Defaults to Qt.WindowType.Widget.

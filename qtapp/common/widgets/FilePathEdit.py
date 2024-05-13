@@ -39,7 +39,8 @@ class FilePathEdit(QLineEdit):
         """Override from QLineEdit."""
 
         # Convert text first to path to get the right slashes (forward or backslash).
-        text = Path(text)
+        # If text is None or empty, set an empty string.
+        text = Path(text) if text else ""
         super().setText(str(text))
 
     def dragEnterEvent(self, event: QDragEnterEvent) -> None:
